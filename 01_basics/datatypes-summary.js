@@ -30,4 +30,28 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "durgarath.com"
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "durga@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
